@@ -1,0 +1,14 @@
+node_modules
+build/
+build.zip
+build.tar.gz
+deploy/
+npm-debug.log*
+.idea/
+.DS_Store
+.cache/
+/app/main__.jsx
+/app/router.comfig.js
+.vscode
+package-lock.json
+yarn.lock
