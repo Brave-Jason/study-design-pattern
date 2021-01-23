@@ -3,6 +3,9 @@
 // protected 对子类开放
 // private 对自己开放
 
+// 减少耦合。不该外漏的不外漏
+//利于数据。接口的权限管理
+//es6目前不支持。一般认为_开头的属性是private
 //es6不支持。可以用typescript演示
 class Father {
     constructor(name, age) {
@@ -32,5 +35,5 @@ class Child extends Father {
 }
 //实例子类
 let zzj = new Child('zzj',20,'javaScript')
-zzj.getWeight()
+zzj.eat()
 zzj.study()
