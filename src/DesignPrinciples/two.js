@@ -74,7 +74,7 @@ class Floor {
                 num = num + 1
             }
         })
-        return num1
+        return num2
     }
 }
 
