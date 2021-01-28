@@ -3,7 +3,7 @@ class SingleObject {
         console.log('login...')
     }
 }
-SingleObject.getInstance = (function(){
+singleObject.getInstance = (function(){
     let instance;
     return function () {
         if(!instance) {
@@ -14,6 +14,6 @@ SingleObject.getInstance = (function(){
 }())
 let obj1 = SingleObject.getInstance()
 obj1.login()
-let obj2 = SingleObject.getInstance()
+let obj2 = SingleObject.getInstance
 obj2.login()
 console.log('obj1 === obj2',obj1 == obj2)
