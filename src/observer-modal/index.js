@@ -1,4 +1,4 @@
-//保存状态。状态变化之后触发所有观察者对象
+//b保存状态。状态变化之后触发所有观察者对象
 class Subject {
     constructor() {
         this.state = 0
@@ -36,8 +36,4 @@ class Observer {
 //test observer
 let s = new Subject()
 let o1 = new Observer('01',s)
-let o2 = new Observer('02',s)
-let o3 = new Observer('03',s)
 s.setState(1)
-s.setState(2)
-s.setState(3)
